@@ -1,0 +1,3 @@
+[submodule "minimal-yasnippet-php-mode"]
+	path = minimal-yasnippet-php-mode
+	url = git://github.com/nishimura/minimal-yasnippet-php-mode.git
