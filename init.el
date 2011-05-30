@@ -9,7 +9,7 @@
 (require 'yasnippet)
 (yas/initialize)
 (yas/load-directory "~/.emacs.d/vendor/yasnippet-0.6.1c/snippets")
-;(yas/load-directory "~/.emacs.d/minimal-yasnippet-php-mode")
+(yas/load-directory "~/.emacs.d/minimal-yasnippet-php-mode")
 
 ;Autocomplete
 (add-to-list 'load-path "~/.emacs.d/autocomplete/")
