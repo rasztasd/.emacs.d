@@ -23,3 +23,4 @@
 (autoload 'pymacs-eval "pymacs" nil t)
 (autoload 'pymacs-exec "pymacs" nil t)
 (autoload 'pymacs-load "pymacs" nil t)
+(add-to-list 'load-path "~/.emacs.d/setup/python-setup/Pymacs-0.23")
