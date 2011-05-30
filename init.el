@@ -1,4 +1,5 @@
-;Add vendor ~/.emacs.d/vendor subdirectories to the load-path
+;Basic set-up
+;Add vendor ~/.emacs.d/vendor and subdirectories to the load-path
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (progn (cd "~/.emacs.d/vendor")
        (normal-top-level-add-subdirs-to-load-path))
@@ -24,3 +25,8 @@
 (autoload 'pymacs-exec "pymacs" nil t)
 (autoload 'pymacs-load "pymacs" nil t)
 (add-to-list 'load-path "~/.emacs.d/setup/python-setup/Pymacs-0.23")
+
+;;Sass-lang
+
+(autoload 'scss-mode "scss-mode")
+(add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
