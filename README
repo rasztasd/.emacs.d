@@ -1,0 +1,19 @@
+This is one of my emacs configuration set for my emacs 2.23.
+
+It contains:
+-Autocomplete
+-Php-mode
+-Yasnippet
+-Ropemacs
+
+These four emacs modules work pretty well together.
+
+Setup folder contains the python dependencies that you have to install.
+Python setup
+-Change into the python folders and (sudo) python setup.py install.
+Autocomplete setup
+-You can look at the Autocomplete documention. Be sure you put into the ~/.emacs.d/autocomplete directory.
+-I usually fire up the emacs
+-M-x load-file 
+-choose ~/.emacs.d/setup/auto-complete-1.3.1/etc/install.el
+-choose ~/.emacs.d/autocomplete as the target directory (you have to create the directory before)
