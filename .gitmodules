@@ -1,3 +1,6 @@
 [submodule "minimal-yasnippet-php-mode"]
 	path = minimal-yasnippet-php-mode
 	url = git://github.com/nishimura/minimal-yasnippet-php-mode.git
+[submodule "vendor/scss-mode"]
+	path = vendor/scss-mode
+	url = git://github.com/antonj/scss-mode.git
