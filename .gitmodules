@@ -4,3 +4,6 @@
 [submodule "vendor/scss-mode"]
 	path = vendor/scss-mode
 	url = git://github.com/antonj/scss-mode.git
+[submodule "vendor/haml-mode"]
+	path = vendor/haml-mode
+	url = https://github.com/knu/haml-mode.git
