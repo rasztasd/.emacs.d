@@ -7,3 +7,6 @@
 [submodule "vendor/haml-mode"]
 	path = vendor/haml-mode
 	url = https://github.com/knu/haml-mode.git
+[submodule "vendor/coffee-mode"]
+	path = vendor/coffee-mode
+	url = https://github.com/knu/coffee-mode.git
