@@ -74,7 +74,10 @@
   ;; If there is more than one, they won't work right.
  '(jde-jdk (quote jdk16))
  '(jde-jdk-registry (quote (("jdk16" . "/home/rasztasd/bin/jdk1.6.0_25/"))))
- '(scroll-bar-mode (quote right)))
+ '(save-place t nil (saveplace))
+ '(scroll-bar-mode (quote right))
+ '(show-paren-mode t)
+ '(uniquify-buffer-name-style (quote forward) nil (uniquify)))
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
