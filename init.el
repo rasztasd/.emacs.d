@@ -34,3 +34,26 @@
 ;Haml
 
 (require 'haml-mode)
+
+
+;Goto last line
+(require 'goto-last-change)
+
+(global-set-key [(meta p)(u)] 'goto-last-change)
+
+
+;End
+
+(custom-set-variables
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ '(jde-jdk (quote jdk16))
+ '(jde-jdk-registry (quote (("jdk16" . "/home/rasztasd/bin/jdk1.6.0_25/")))))
+(custom-set-faces
+  ;; custom-set-faces was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ )
