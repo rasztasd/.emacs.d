@@ -7,3 +7,6 @@
 [submodule "vendor/haml-mode"]
 	path = vendor/haml-mode
 	url = https://github.com/knu/haml-mode.git
+[submodule "vendor/emacs-color-theme-solarized"]
+	path = vendor/emacs-color-theme-solarized
+	url = https://github.com/sellout/emacs-color-theme-solarized.git
