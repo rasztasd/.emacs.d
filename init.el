@@ -2,6 +2,9 @@
 ;Turn menubar and toolbar off
 (tool-bar-mode nil)
 
+;Start in server mode
+(server-mode t)
+
 ;Add vendor ~/.emacs.d/vendor and subdirectories to the load-path
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (progn (cd "~/.emacs.d/vendor")
